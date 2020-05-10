@@ -1,0 +1,620 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../../resources/css/Raleway.ttf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('../../../resources/css/Raleway-ExtraBold.ttf');
+    font-style: normal;
+    font-weight: 100;
+}
+
+html, body {
+    font-family: Raleway;
+    overflow-x: hidden;
+}
+
+.hamburger {
+    color: rgb(255, 252, 252);
+}
+
+img {
+    border:2px solid rgba(0,6,12,.5);
+    box-shadow: 0 2px 12px rgba(0,6,12,.5);
+   -moz-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+   -webkit-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+   -khtml-box-shadow: 0 2px 12px rgba(0,6,12,.5);
+}
+
+.content-middle {
+    background-image: url('../../../resources/background.jpg');
+    background-size: contain;
+}
+
+.content-inner {
+    background-color: rgb(220, 220, 220);
+}
+
+.header-bg {
+    background-color: rgb(214, 0, 2);
+    height: 21px;
+} 
+
+.nav-container {
+    background-color: rgb(214, 0, 2);
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 0 auto;
+    color: rgb(255, 252, 252) !important;
+    font-family: Raleway-bold;
+    transition: 0.3s linear;
+}
+
+.nav-link:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.navbar-toggler {
+    border: none;
+    color: rgb(255, 252, 252);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 532px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: -25px;
+    left: -1px;
+    background-color: rgb(59, 59, 59, 0.7);
+    width: 100%;    
+}
+
+.carousel-caption h5, .carousel-caption p {
+    font-family: Raleway-bold;
+}
+
+.header-inner {
+    background-color: rgb(255, 252, 252);
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+h2 {
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+    padding: 12px;
+}
+
+h4 {
+    color: rgb(255, 252, 252);
+    background-color: rgb(214, 0, 2);
+    padding: 12px;
+}
+
+h1, h2, h4 {
+    font-family: Raleway-bold;
+}
+
+.carousel-container {
+    background-image: url('../../../resources/background.jpg');
+    background-size: contain;
+}
+
+.carousel {
+    border-bottom: 5px solid rgb(214, 0, 2);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+  }
+
+.carousel-indicators .active {
+    background-color: rgb(214, 0, 2);
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    background-image: url('../../../resources/background.jpg');
+    position: relative;
+}
+
+.card-body {
+    background-color: rgb(255, 252, 252);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(220, 220, 220); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(214, 0, 2); 
+  }
+  
+  /* Handle on hover */
+  /*::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }*/
+
+  #accordion h5 {
+      font-family: Raleway-bold;
+      font-size: 20px;
+  }
+
+  .card-header {
+      background-color: rgb(220, 220, 220);
+      border-bottom: 8px solid rgb(214, 0, 2);
+  }
+
+  #accordion .fa, #accordion .fa-plus {
+    position: relative;
+    top: 30%;
+    left: -15px;
+    color: black;
+  }
+
+  .toggle-card-header {
+    color: black;
+    text-decoration: none !important;
+    font-size: 20px;
+  }
+
+  button:link, button:visited, button:hover, button:active {
+    text-decoration: none !important;
+  }
+
+  .content-inner-container {
+      background-color: rgb(255, 252, 252);
+      border-top: 5px solid rgb(214, 0, 2);
+      margin-top: -10px;
+      height: auto;
+    }
+
+    #content-inner-label {
+      background-color: rgb(255, 252, 252);
+      border-bottom: 5px solid rgb(214, 0, 2);
+      transition: 0.3s linear;
+    }
+
+    #content-inner-label .nav-link:hover {
+        background-color: rgb(214, 0, 2);
+        color: rgb(255, 252, 252) !important;
+        transition: 0.3s linear;   
+    }
+
+    #content-inner-label .nav-link {
+        background-color: rgb(255, 252, 252);
+        color: rgb(59, 59, 59) !important;
+        width: 100%;
+        transition: 0.3s linear;
+    }
+
+    .content-inner .frame {
+        border: 1px solid rgb(220, 220, 220);
+    }
+
+    #content-inner-label .active-label {
+        background-color: rgb(214, 0, 2) !important;
+        color: rgb(255, 252, 252) !important;
+    }
+
+    .content-inner .social h4 {
+        background-color: rgb(255, 252, 252);
+        color: rgb(59, 59, 59);
+        transition: 0.3s linear;
+    }
+
+    .content-inner h4:hover {
+        background-color: rgb(214, 0, 2);
+        color: rgb(255, 252, 252);
+    }
+
+    footer {
+        background-color: rgb(220, 220, 220);
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer .indent a {
+        color: rgb(214, 0, 2);
+        text-decoration: underline;
+    }
+
+    #ad, #slogan {
+        width: 100%;
+        height: auto;
+    }
+
+    #headshot {
+        padding: 18px;
+    }
+
+    footer .divider {
+        border-top: 5px solid rgb(214, 0, 2);
+    }
+
+    footer .site-links a {
+        color: black;
+        font-size: 14px;
+    }
+
+    .credits {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+ 
+    .mobile, .hide {
+      display: none;
+    }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .navbar {
+        background-color: rgb(214, 0, 2);
+        border-bottom: none;
+    } 
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #logo {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        margin-top: -60px;
+    }
+
+    nav .col-2 {
+        height: 0px;
+    }
+
+    .nav-link {
+        margin-top: 10px;
+    }
+
+    .active-link {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .carousel-indicators li {
+        position: relative;
+        top: 60px;
+      }
+    
+    .content-inner {
+        margin-top: 50px;
+    }
+
+    .content-inner .social {
+        margin-left: -2px;
+    }
+
+    .content-inner .about {
+                
+    }
+
+    footer .indent {
+        margin-left: 15px;
+    }
+
+    footer .site-links p {
+        margin-left: 15px;
+    }
+
+    #ad {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .navbar {
+        background-color: rgb(214, 0, 2);
+        border-bottom: none;
+    } 
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #logo {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        margin-top: -60px;
+    }
+
+    nav .col-2 {
+        height: 0px;
+    }
+
+    .nav-link {
+        margin-top: 10px;
+    }
+
+    .active-link {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .carousel-indicators li {
+        position: relative;
+        top: 60px;
+      }
+    
+      .card {
+        width: 110%;
+        left: -5%;
+    }
+    
+    .content-inner {
+        margin-top: 50px;
+    }
+
+    .content-inner .social {
+        margin-left: -2px;
+    }
+
+    .content-inner .about {
+                
+    }
+
+    footer .indent {
+        margin-left: 15px;
+    }
+
+    footer .site-links p {
+        margin-left: 15px;
+    }
+    
+    
+
+    #ad {
+        max-width: 40%;
+        margin: 0 auto;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .navbar {
+        background-color: rgb(214, 0, 2);
+        border-bottom: none;
+    } 
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #logo {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        margin-top: -60px;
+    }
+
+    nav .col-2 {
+        height: 0px;
+    }
+
+    .nav-link {
+        margin-top: 10px;
+    }
+
+    .active-link {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .carousel-indicators li {
+        position: relative;
+        top: 60px;
+      }
+    
+      .card {
+        width: 110%;
+        left: -5%;
+    }
+
+    .content-inner {
+        margin-top: 50px;
+    }
+
+    .content-inner .social {
+        margin-left: -2px;
+    }
+
+    .content-inner .about {
+                
+    }
+
+    footer .indent {
+        margin-left: 15px;
+    }
+
+    footer .site-links p {
+        margin-left: 15px;
+    }
+
+    #ad {
+        max-width: 35%;
+        margin: 0 auto;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .header-inner {
+        height: 159px;
+    }
+
+    h1 {
+        line-height: 600%;
+    }
+
+    #logo {
+        max-width: 170px;
+        max-height: 164px;
+        position: relative;
+        left: 80px;
+        top: 10%;
+    }
+
+    .nav-container {
+        height: 80px;
+        border-bottom: 10px solid rgb(59, 59, 59);
+    }
+
+    .nav-link {
+        margin-top: 20px;
+    }
+
+    .active-link {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .carousel-indicators li {
+        position: relative;
+        right: -58%;
+        bottom: -15px
+      }
+
+    .content-inner .social {
+        margin-left: 0;
+    }
+
+    .content-inner .about {
+        margin-right: 0;
+    }
+
+    footer .indent {
+        margin-left: 20px;
+    }
+
+    footer .site-links {
+        margin-left: -30px;
+    }
+    
+    #ad {
+        max-width: 70%;
+        margin-left: 15%;
+    }    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+    .header-inner {
+        height: 159px;
+    }
+
+    h1 {
+        line-height: 600%;
+    }
+
+    #logo {
+        max-width: 170px;
+        max-height: 164px;
+        position: relative;
+        right: -100%;
+        top: 10%;
+    }
+
+    .nav-container {
+        height: 80px;
+        border-bottom: 10px solid rgb(59, 59, 59);
+    }
+
+    .nav-link {
+        margin-top: 20px;
+    }
+
+    .active-link {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .carousel-indicators li {
+        position: relative;
+        right: -58%;
+        bottom: -15px
+      }
+
+
+    .content-inner .social {
+        margin-left: 0;
+    }
+
+    .content-inner .about {
+        margin-right: 0;
+    }
+
+    footer .indent {
+        margin-left: 20px;
+    }
+
+    footer .site-links {
+        margin-left: -30px;
+    }
+    
+    #ad {
+        max-width: 70%;
+        margin: 15%;
+    }
+ }
